@@ -19,14 +19,14 @@ body {
 .form_holder {
   width: 540px;
   height: 540px;
-  background-color:white;
+  background-color: white;
   border-radius: 20px;
-  padding:20px ;
+  padding: 20px;
 }
-.form_holder-form{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+.form_holder-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .form_holder-title {
@@ -41,6 +41,7 @@ body {
   flex-direction: column;
   width: 50%;
   padding-right: 10px;
+  position: relative;
 }
 
 .form-lastName {
@@ -49,73 +50,86 @@ body {
   width: 50%;
 }
 
-.form-birthdayGender{
-    display: flex;
+.form-birthdayGender {
+  display: flex;
 }
 
-.form-birthday{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding-right: 10px;
+.form-birthday {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 10px;
 }
 
-.form-emailPhone{
-    display: flex;
+.form-emailPhone {
+  display: flex;
 }
 
-.form-gender{
-    display: flex;
-    flex-direction: column;
+.form-gender {
+  display: flex;
+  flex-direction: column;
 }
-.form-checkGender{
-    display: flex;
-    flex-direction: row;
-}
-.form-femaleGender{
-    padding-right: 20px;
-}
-.form-email{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding-right: 10px;
+.form-checkGender {
+  display: flex;
+  align-items: center;
 }
 
-.form-phone{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+.form-email {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 10px;
 }
 
-.form-subject{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.form-label{
-    padding-bottom:20px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
+.form-phone {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
-.form-input{
-height: 30px;
-margin-bottom: 20px;
-border:0;
-border-radius: 5px;
-background-color: rgb(242, 242, 242);
+.form-subject {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-label {
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
-.form-button{
-    width: 30%;
-    height: 40px;
-    margin-top: 30px;
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(242, 242, 242);
+  box-shadow: 1px 1px 1px 0px grey;
+  padding: 3px;
+}
+.form-input-radio {
+    height: 30px;
+    margin-bottom: 20px;
     border: 0;
-    background-color: rgb(57, 57, 234);
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
     border-radius: 5px;
+    background-color: rgb(242, 242, 242);
+   
+  }
+.form-button {
+  width: 30%;
+  height: 40px;
+  margin-top: 30px;
+  border: 0;
+  background-color: rgb(57, 57, 234);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
+.form-name-icon{
+    position: absolute;
+    top: 53px;
+    left: 246px;
+    font-size: 13px;
 }

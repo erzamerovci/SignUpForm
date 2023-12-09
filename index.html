@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="container">
@@ -18,39 +19,45 @@
           <div class="form-nameSurname">
             <div class="form-name">
               <label class="form-label" for="">First Name</label>
-              <input class="form-input" type="text" />
+              <input class="form-input" type="text" required />
+              <span class="form-name-icon">
+                <i class="fa fa-address-book" aria-hidden="true"></i>
+
+              </span>
             </div>
             <div class="form-lastName">
               <label class="form-label" for="">Last Name</label>
-              <input class="form-input" type="text" />
+              <input class="form-input" type="text" required />
             </div>
           </div>
 
           <div class="form-birthdayGender">
             <div class="form-birthday">
               <label class="form-label" for="">Birthday</label>
-              <input class="form-input" type="date" />
+              <input class="form-input" type="date" required/>
             </div>
             <div class="form-gender">
               <label class="form-label" for="">Gender</label>
               <div class="form-checkGender">
                 <div class="form-femaleGender">
                     <input
-                  class="form-input"
+                  class="form-input-radio"
                   type="radio"
                   value="Female"
                   name="gender"
                   id=""
+                  required
                 />
                 <label class="form-label" for="">Female</label>
                 </div>
                 <div class="form-maleGender">
                     <input
-                    class="form-input"
+                    class="form-input-radio"
                     type="radio"
                     value="Male"
                     name="gender"
                     id=""
+                    required
                   />
                   <label class="form-label" for="">Male</label>
                 </div>
@@ -62,16 +69,16 @@
           <div class="form-emailPhone">
             <div class="form-email">
               <label class="form-label" for="">Email</label>
-              <input class="form-input" type="email" name="" id="" />
+              <input class="form-input" type="email" name="" id="" required />
             </div>
             <div class="form-phone">
               <label class="form-label" for="">Phone number</label>
-              <input class="form-input" type="number" name="" id="" />
+              <input class="form-input" type="number" name="" id="" required/>
             </div>
           </div>
           <div class="form-subject">
             <label class="form-label" for="">Subject</label>
-            <select class="form-input" id="" value="Select option">
+            <select class="form-input" id="" value="Select option" required>
               <option value="HTML">HTML</option>
               <option value="CSS">CSS</option>
               <option value="Javascript">JavaScript</option>
