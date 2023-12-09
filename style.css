@@ -1,5 +1,5 @@
-body{
-    margin:0;
+body {
+  margin: 0;
 }
 .container {
   width: 100%;
@@ -11,15 +11,111 @@ body{
     rgba(233, 103, 226, 1) 0%,
     rgba(146, 23, 135, 1) 100%
   );
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.form_holder{
-    width: 600px;
-    height: 600px;
-    background-color: rgb(238, 235, 235);
-    border-radius: 20px;
+.form_holder {
+  width: 540px;
+  height: 540px;
+  background-color:white;
+  border-radius: 20px;
+  padding:20px ;
+}
+.form_holder-form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
+.form_holder-title {
+  font-family: "Montserrat", sans-serif;
+}
+.form-nameSurname {
+  display: flex;
+}
+
+.form-name {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 10px;
+}
+
+.form-lastName {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form-birthdayGender{
+    display: flex;
+}
+
+.form-birthday{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.form-emailPhone{
+    display: flex;
+}
+
+.form-gender{
+    display: flex;
+    flex-direction: column;
+}
+.form-checkGender{
+    display: flex;
+    flex-direction: row;
+}
+.form-femaleGender{
+    padding-right: 20px;
+}
+.form-email{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.form-phone{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form-subject{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-label{
+    padding-bottom:20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.form-input{
+height: 30px;
+margin-bottom: 20px;
+border:0;
+border-radius: 5px;
+background-color: rgb(242, 242, 242);
+}
+
+.form-button{
+    width: 30%;
+    height: 40px;
+    margin-top: 30px;
+    border: 0;
+    background-color: rgb(57, 57, 234);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}

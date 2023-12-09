@@ -4,12 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="form_holder">
-        
+        <h1 class="form_holder-title">Sign Up Form</h1>
+        <form action="" class="form_holder-form">
+          <div class="form-nameSurname">
+            <div class="form-name">
+              <label class="form-label" for="">First Name</label>
+              <input class="form-input" type="text" />
+            </div>
+            <div class="form-lastName">
+              <label class="form-label" for="">Last Name</label>
+              <input class="form-input" type="text" />
+            </div>
+          </div>
+
+          <div class="form-birthdayGender">
+            <div class="form-birthday">
+              <label class="form-label" for="">Birthday</label>
+              <input class="form-input" type="date" />
+            </div>
+            <div class="form-gender">
+              <label class="form-label" for="">Gender</label>
+              <div class="form-checkGender">
+                <div class="form-femaleGender">
+                    <input
+                  class="form-input"
+                  type="radio"
+                  value="Female"
+                  name="gender"
+                  id=""
+                />
+                <label class="form-label" for="">Female</label>
+                </div>
+                <div class="form-maleGender">
+                    <input
+                    class="form-input"
+                    type="radio"
+                    value="Male"
+                    name="gender"
+                    id=""
+                  />
+                  <label class="form-label" for="">Male</label>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="form-emailPhone">
+            <div class="form-email">
+              <label class="form-label" for="">Email</label>
+              <input class="form-input" type="email" name="" id="" />
+            </div>
+            <div class="form-phone">
+              <label class="form-label" for="">Phone number</label>
+              <input class="form-input" type="number" name="" id="" />
+            </div>
+          </div>
+          <div class="form-subject">
+            <label class="form-label" for="">Subject</label>
+            <select class="form-input" id="" value="Select option">
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+              <option value="Javascript">JavaScript</option>
+            </select>
+          </div>
+
+          <button class="form-button">Submit</button>
+        </form>
       </div>
     </div>
   </body>
